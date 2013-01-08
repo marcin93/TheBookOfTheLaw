@@ -53,16 +53,17 @@
         android:layout_width="wrap_content"
         android:layout_height="309dp"
         android:layout_above="@+id/linearLayout1"
-        android:layout_alignLeft="@+id/linearLayout1"
-        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_below="@+id/tvHeadComment" >
 
         <TextView
             android:id="@+id/tvChapThree"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="6064dp"
             android:padding="10dp"
             android:text="@string/ChapThree" />
+
     </ScrollView>
 
 </RelativeLayout>
