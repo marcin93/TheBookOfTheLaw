@@ -1,6 +1,26 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
+        android:id="@+id/mComment"
+        android:orderInCategory="1"
+        android:title="@string/headComment">
+    </item>
+    <item
+        android:id="@+id/mChapOne"
+        android:orderInCategory="1"
+        android:title="@string/headChapOne">
+    </item>
+    <item
+        android:id="@+id/mChapTwo"
+        android:orderInCategory="1"
+        android:title="@string/headChapTwo">
+    </item>
+    <item
+        android:id="@+id/mChapThree"
+        android:orderInCategory="1"
+        android:title="@string/headChapThree">
+    </item>
+    <item
         android:id="@+id/mCredits"
         android:orderInCategory="1"
         android:title="@string/menuCredits">
